@@ -1,0 +1,143 @@
+.container-pharmacy {
+  width: 100%;
+  background-color: #fff;
+}
+
+.pharmacy {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 1256px;
+  margin-top: 42px;
+  margin-left: 67px;
+  padding-bottom: 40px;
+}
+
+.pharmacy-img img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pharmacy-img-button {
+  height: 45px;
+  border: 1.6px solid var(--unnamed-color-4ca7e1);
+  background: transparent url('img/Rectangle 3508.png') 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pharmacy-img-button.button1 {
+  width: 166px;
+  border: 2px solid #4CA7E1;
+}
+
+.pharmacy-img-button.button2 {
+  width: 177px;
+  background-color: #E67E22
+}
+
+.pharmacy-img-button.button3 {
+  border: 2px solid #8448A7;
+  width: 147px;
+}
+
+.pharmacy-img-button.button4 {
+  border: 2px solid #CE5145;
+  width: 179px;
+}
+
+.pharmacy-img-button.button5 {
+  border: 2px solid #5FA02E;
+  width: 159px;
+}
+
+.pharmacy-img-p {
+  font-size: small;
+  width: 190px;
+  text-align: center;
+}
+
+.pharmacy-img-h4 {
+  width: 190px;
+  text-align: center;
+}
+
+.approach h1 {
+  font-size: 38px;
+  text-align: center;
+  margin-right: 150px;
+}
+
+.approach-imgs {
+  display: flex;
+  width: 1256px;
+  margin-left: 67px;
+  justify-content: space-evenly;
+  position: relative;
+}
+.engagement{
+  margin-left: 67px;
+  /* width: 1254px; */
+}
+.engagement h1{
+  text-align: center;
+  display: block;
+  width: 490px;
+  height: 81px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 32px;
+margin-top: 40px;
+
+
+}
+.engagement img{
+  width: 1237px;
+  height: 400px;
+  margin-left: 10px;
+}
+.approach-imgs img {
+  width: 407px;
+  height: 345px;
+  position: relative;
+  border-radius: 10px;
+  /* background-image: linear-gradient(#00000000,#1E2945); */
+}
+
+.approach-imgs p {
+  color: #FFFFFF;
+  position: absolute;
+  font-size: 26px;
+  width: 271px;
+  height: 64px;
+}
+.available-phone img{ 
+  width: 192px;
+height: 396px;
+}
+.available{
+display: flex;
+margin-left: 77px;
+height:270px;
+justify-content: center;
+}
+.available-store{
+  display: flex;
+  width: 216px;
+height: 60px;
+
+}
+ .available-store p{
+  width: 197px;
+height: 60px;
+margin-left: 20px;
+
+text-align: center;
+}
+ .available-store img{
+  width: 28px;
+height: 35px;
+margin-top: 12px;
+} 

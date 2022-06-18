@@ -1,0 +1,223 @@
+body {
+    width: 1536px;
+    height: 2576px;
+    margin: 23px 141px;
+}
+
+header button {
+    width: 100px;
+    height: 40px;
+    background-color: #1B2346;
+    color: #FFFFFF;
+    border-radius: 10px;
+    float: right;
+}
+
+section p:nth-child(2n+1) {
+    color: #57BE09;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+section p {
+    color: #1B2346;
+    margin: 5px;
+    font-size: 41px;
+    font-weight: bold;
+
+}
+
+section {
+    margin-bottom: 67px;
+    margin-top: 100px;
+    flex-grow: 1;
+}
+
+.platform {
+    margin-top: 29px;
+    flex: 10;
+    display: flex;
+}
+
+aside {
+    margin-right: 40px;
+}
+
+aside img {
+    margin-right: 5px;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 67px;
+
+}
+
+.container label {
+    color: #1B2346;
+    font-size: 14px;
+    margin-top: -10px;
+
+}
+
+.container label:nth-child(2) {
+    margin-right: 61px;
+}
+
+.container label:nth-child(4) {
+    margin-right: 80px;
+}
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -99999px;
+
+}
+
+[type="radio"]:checked+label,
+[type="radio"]:not(:checked)+label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    color: #1B2346;
+
+}
+
+[type="radio"]:checked+label:before,
+[type="radio"]:not(:checked)+label:before {
+    content: '';
+    position: absolute;
+    left: 2px;
+    top: -1px;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #1B2346;
+    border-radius: 100%;
+    background: #fff;
+}
+
+[type="radio"]:checked+label:after,
+[type="radio"]:not(:checked)+label:after {
+    content: '';
+    width: 12px;
+    height: 12px;
+    background: #1B2346;
+    position: absolute;
+    top: 3px;
+    left: 6px;
+    border-radius: 100%;
+
+}
+
+[type="radio"]:not(:checked)+label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+
+[src$='littleBoy.jpg'] {
+    margin-bottom: -10px;
+}
+
+[src$='happyFamily.jpg'] {
+    margin-bottom: 35px;
+}
+
+[src$='food.jpg'] {
+    margin-bottom: -5px;
+}
+
+[src$='girl.jpg'] {
+    margin-bottom: -30px;
+}
+
+[src$='businessman.jpg'] {
+    margin-bottom: 30px;
+}
+
+article p {
+    color: #68AA31;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 67px;
+}
+
+.search-container {
+    /* left: 140px; */
+    margin-top: 12px;
+    display: flex;
+    width: 1256px;
+    height: 55px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px #0000001A;
+    border: 1px solid #1D2344;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin-left: 67px;
+}
+
+.condition {
+    flex: 2;
+    background-image: url('../assests/search.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    border: none;
+    margin-left: 15px;
+}
+
+.location {
+    flex: 1;
+    background-image: url('../assests/location.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    border: none;
+    margin-left: 10px;
+}
+
+.today {
+    flex: 1;
+    background-image: url('../assests/today.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    border: none;
+    margin-left: 10px;
+}
+
+.insurance {
+    flex: 2;
+    background-image: url('../assests/insurance.svg');
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+    border: none;
+    margin-left: 15px;
+}
+
+.buttonDone {
+    width: 70px;
+    height: 55px;
+    background-image: url('../assests/buttonSearch.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 0px 10px 10px 0px;
+    opacity: 1;
+    background-color: #1D2344;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.arrow {
+    flex: 1;
+    align-self: center;
+}
+
