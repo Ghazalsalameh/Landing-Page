@@ -1,6 +1,8 @@
 .container-pharmacy {
-  width: 100%;
-  background-color: #fff;
+
+  background: white;
+  padding: 23px 141px;
+    width: 100%;
 }
 
 .pharmacy {
@@ -57,17 +59,20 @@
   font-size: small;
   width: 190px;
   text-align: center;
+  color: #1B2346;
 }
 
 .pharmacy-img-h4 {
   width: 190px;
   text-align: center;
+  color: #1B2346;
 }
 
 .approach h1 {
   font-size: 38px;
   text-align: center;
   margin-right: 150px;
+  color: #1B2346;
 }
 
 .approach-imgs {
@@ -76,36 +81,72 @@
   margin-left: 67px;
   justify-content: space-evenly;
   position: relative;
-}
-.engagement{
-  margin-left: 67px;
-  /* width: 1254px; */
-}
-.engagement h1{
-  text-align: center;
-  display: block;
-  width: 490px;
-  height: 81px;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 32px;
-margin-top: 40px;
-
 
 }
-.engagement img{
+
+.approach-imgs::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(#00000000, #1E2945);
+}
+
+.engagement {
+  background: white;
+  padding: 23px 141px;
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+.engagement.family-pic {
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(27, 35, 70, 0.1), rgba(27, 35, 70, 1)), url(../../assests/familyAffection.png);
+  height: 350px;
+  background-size: cover;
+  border-radius: 10px ;
+  width: 961px;
+  margin-left: 80px;
+}
+
+.engagement.family-pic p {
+  color: #FFFFFF;
+  font-size: 44px;
+  width: 348px;
+  height: 107px;
+  position: absolute;
+  transform: translate(-11%, 49%);
+}
+
+.engagement h1 {
+      /* margin-right: auto; */
+    /* font-size: 32px; */
+    /* margin-left: auto; */
+    /* margin-top: 70px; */
+    transform: translate(-9%, -48%);
+    color: #1B2346;
+    /* font-size: 38px; */
+    text-align: center;
+}
+
+.engagement img {
   width: 1237px;
   height: 400px;
   margin-left: 10px;
 }
+
 .approach-imgs img {
   width: 407px;
   height: 345px;
   position: relative;
   border-radius: 10px;
-  /* background-image: linear-gradient(#00000000,#1E2945); */
 }
-
+.approach{
+  padding: 23px 141px;
+  margin-bottom: 25px;
+  background-color: #F8F8F8;
+  height: 512px;
+}
 .approach-imgs p {
   color: #FFFFFF;
   position: absolute;
@@ -113,31 +154,155 @@ margin-top: 40px;
   width: 271px;
   height: 64px;
 }
-.available-phone img{ 
+
+.available-phone img {
   width: 192px;
-height: 396px;
+  height: 396px;
 }
-.available{
-display: flex;
-margin-left: 77px;
-height:270px;
-justify-content: center;
+
+.available {
+  display: flex;
+  height: 270px;
+  justify-content: center;
+  margin-bottom: 130px;
+  background-color: #F8F8F8;
 }
-.available-store{
+
+.available div h1 {
+  color: #1B2346;
+}
+
+.available div p {
+  color: #1B2346;
+  font-size: small;
+}
+
+.available div p strong {
+  font-size: 20px
+}
+
+.available div h1 {
+  color: #1B2346;
+}
+
+.available-store {
   display: flex;
   width: 216px;
-height: 60px;
-
+  height: 60px;
 }
- .available-store p{
+
+.available-store p {
   width: 197px;
-height: 60px;
-margin-left: 20px;
-
-text-align: center;
+  height: 60px;
+  color: #1B2346;
+  text-align: inherit;
 }
- .available-store img{
+
+.available-store img {
   width: 28px;
-height: 35px;
-margin-top: 12px;
-} 
+  height: 35px;
+  margin-top: 10px;
+  margin-left: 28px;
+  margin-right: -22px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 32px;
+  margin-right: 178px;
+  align-items: center;
+  height: 90px;
+}
+
+footer p {
+  color: #1B2346;
+}
+
+footer img {
+  width: 127px;
+  height: 23px;
+}
+
+.available .app-store {
+  display: flex;
+  width: 197px;
+  background-color: #fff;
+  height: 60px;
+
+  margin-right: 20px;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+}
+
+.available .google-play {
+  display: flex;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 10px;
+  width: 216px;
+  height: 60px;
+  background-color: white;
+}
+
+.available .google-play p {
+  text-align: inherit;
+  margin-left: 36px;
+}
+
+.available .app-store .img {
+  width: 28px;
+  height: 35px;
+  margin-left: 28px;
+}
+
+hr {
+  border: 1px solid #b6bbc01a;
+}
+
+.images {
+  width: 407px;
+  height: 345px;
+  border-radius: 10px;
+  background-size: cover;
+}
+
+.images.img1 {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(27, 35, 70, 0.1), rgba(27, 35, 70, 1)), url("../../assests/medical-insurance.png");
+}
+
+.images p {
+  position: absolute;
+  bottom: -20px;
+  align-content: center;
+  font-size: 26px;
+  margin-left: 18px;
+}
+
+.images.img2 {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(27, 35, 70, 0.1), rgba(27, 35, 70, 1)), url("../../assests/senior-woman.png");
+
+}
+
+.images.img3 {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(27, 35, 70, 0.1), rgba(27, 35, 70, 1)), url("../../assests/family-visitDoc.png");
+
+}
+
+.images.img3 p {
+  width: 205px;
+}
+
+.available.p {
+  font-size: 18px;
+  width: 444px;
+}
+
+[src$='iphone.png'] {
+  width: 192px;
+  height: 396px;
+  align-self: center;
+}
+
+.available div {
+  margin-right: 100px;
+}
